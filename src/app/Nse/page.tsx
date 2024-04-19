@@ -17,7 +17,7 @@ const page = () => {
             </section>
             <section className="w-full py-4 lg:py-12 flex flex-col justify-center items-center px-6  md:px-10 lg:px-20 bg-[#fff]">
 
-                <div className="lg:w-[80%] w-full h-auto lg:h-auto py-8 rounded-xl flex flex-col   items-center bg-[#151F63]">
+                <div className="lg:w-[80%] w-full h-auto lg:h-auto py-8 rounded-xl flex flex-col   items-center bg-[#ff660b]">
                     <h1 className='text-2xl ml-4 md:ml-0 md:text-4xl text-white font-bold'>NSEJS(National Standard Examination in Junior Science)</h1>
                     <div className='text-white py-6 px-6 md:px-12 text-left mt-0 md:mt-12'>
                         <ul className='flex flex-col gap-4 md:gap-10'>

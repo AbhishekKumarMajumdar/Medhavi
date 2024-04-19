@@ -8,7 +8,7 @@ const CourseSection = ({ data }: any) => {
     return (
         <>
             <section className="w-full px-6 md:px-10 lg:py-0 md:py-6 lg:px-48 h-auto md:h-[450px] lg:h-[400px] flex flex-col md:flex-row  justify-between">
-                <div className={`w-[100%] p-6  h-[100%] ${direction ? "bg-[#e8e3f8] " : "bg-[#fff] "} flex flex-col  `}>
+                <div className={`w-[100%] p-6  h-[100%] ${direction ? "bg-[#ffcdaf] " : "bg-[#fff] "} flex flex-col  `}>
                     <h1 className='text-center  text-[#151F63] md:text-xl lg:text-2xl font-bold'>{title}</h1>
                     <p className='text-center text-red-500 font-bold text-md'>{classes}</p>
                     <ul className='text-left  text-[#151F63] font-semibold '>
@@ -19,7 +19,7 @@ const CourseSection = ({ data }: any) => {
 
                     </ul>
                 </div>
-                <div className={`w-[100%] h-[100%]  ${direction ? " bg-[#fff] " : "bg-[#e8e3f8]"}  flex flex-col justify-center items-center`}>
+                <div className={`w-[100%] h-[100%]  ${direction ? " bg-[#fff] " : "bg-[#ffcdaf]"}  flex flex-col justify-center items-center`}>
                     <div className="md:w-[60%] md:h-[50%] w-[100%] my-6">
                         <Image
                             src={img.src}

@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image'
-import Logo from "@/Images/Banner/Logo.png"
+import Logo from "@/Images/Logo/Medhavi.png"
 import { FiMenu } from "react-icons/fi";
 import Link from 'next/link';
 
@@ -66,16 +66,15 @@ const Navbar = () => {
         //     </nav>
         // </>
         <>
-            <div className="w-full h-[50px] bg-[#FF6161] flex justify-center items-center font-bold text-[18px] md:text-[25px] text-white">Institute for Foundation, CUET, NEET & JEE</div>
-            <nav className="py-2 px-6 md:px-20 bg-[#749CD2]">
+            <div className="w-full h-[50px] bg-[#008CD2] flex justify-center items-center font-bold text-[18px] md:text-[25px] text-white">Institute for Foundation, CUET, NEET & JEE</div>
+            <nav className="py-2 px-6 md:px-20 bg-[#F3BE9E]">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center pl-0 md:pl-8">
                         <Link href={"/"}>
                             <Image
                                 src={Logo}
                                 alt="logo"
-                                height={102}
-                                width={68}
+                                width={102}
                             />
                         </Link>
                     </div>
@@ -110,8 +109,8 @@ const Navbar = () => {
                                 <div onMouseLeave={() => setTest(false)}
                                     className={` top-full -left-[50%] mt-2 bg-[#e8e3f8] shadow-lg rounded-md py-2 w-48 z-10 ${test ? "absolute" : "hidden"}`}>
                                     <Link href="/Study_Material" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Pre Nurture</Link>
-                                    <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Neet</Link>
-                                    <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Jee</Link>
+                                    <Link href="/Neet" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Neet</Link>
+                                    <Link href="/Jee" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Jee</Link>
                                 </div>
                             </li>
                             <li className="text-lg font-bold "><Link href="/Careers" className="transition duration-300 focus:outline-none focus:underline hover:underline">Test Series</Link></li>
@@ -120,8 +119,8 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex md:gap-4">
-                        <button className="rounded-lg px-4 py-2 bg-[#FF6161] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">+918090908042</button>
-                        <button className="rounded-lg px-4 py-2 bg-[#FF6161] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">Join Us</button>
+                        <button className="rounded-lg px-4 py-2 bg-[#FF660B] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">+918090908042</button>
+                        <button className="rounded-lg px-4 py-2 bg-[#FF660B] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">Join Us</button>
                     </div>
                 </div>
 

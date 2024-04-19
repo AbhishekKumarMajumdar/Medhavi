@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from "@/Images/Banner/Logo.png"
+import Logo from "@/Images/Logo/Medhavi.png"
 const Footer = () => {
     return (
         <footer className="bg-gray-900">
@@ -92,7 +92,7 @@ const Footer = () => {
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
 
                         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                            &copy; 2024 Copyright NEETSarthi. & Design by OSCode &trade; All rights reserved.
+                            &copy; 2024 Copyright Medhavi. & Design by OSCode &trade; All rights reserved.
                         </p>
                     </div>
                 </div>

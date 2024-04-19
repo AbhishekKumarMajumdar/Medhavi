@@ -4,7 +4,7 @@ const page = () => {
 
     return (
         <>
-            <section className="w-full pb-12 flex flex-col justify-center items-center px-6 md:px-10 lg:px-20 bg-[#151F63]">
+            <section className="w-full pb-12 flex flex-col justify-center items-center px-6 md:px-10 lg:px-20 bg-[#ff660b]">
                 <h1 className="text-center text-xl sm:text-2xl md:text-4xl w-full py-6 text-[#fff] leading-[40px] md:leading-[65px]">
                     Your Sarthi for Foundation/NEET/JEE/CUET Preparation                </h1>
                 <div className="md:w-[70%] w-[90%] h-auto md:h-[70vh] bg-white">

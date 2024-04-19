@@ -3,7 +3,7 @@ import React from 'react'
 const Contect = () => {
     return (
 
-        <div className="bg-[#e8e3f8] text-gray-100 px-8 py-2 md:py-12">
+        <div className="bg-[#ffcdaf] text-gray-100 px-8 py-2 md:py-12">
             <div className="text-center w-full">
                 <svg className="text-gray-100 h-8 mx-auto" viewBox="0 0 150 29" version="1.1"
                 >
@@ -552,7 +552,7 @@ const Contect = () => {
                     </div>
                     <div className="mt-8">
                         <button
-                            className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                            className="uppercase text-sm font-bold tracking-wide bg-[#ff660b] text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
                             Send Message
                         </button>
                     </div>

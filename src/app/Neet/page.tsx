@@ -2,7 +2,8 @@ import Header from '@/components/Header'
 import React from 'react'
 import Image from 'next/image'
 
-import Nse from "@/Images/Banner/Pre_Nurture_Course.png"
+import Nse from "@/Images/Banner/Smp.png"
+import Teacher from '@/components/Teacher'
 const page = () => {
 
     return (
@@ -39,6 +40,7 @@ const page = () => {
                     <button className="rounded-lg px-4 mb-12 mt- text-center py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-blue-100 duration-300">Buy</button>
                 </div>
 
+                <Teacher />
 
             </section>
         </>
