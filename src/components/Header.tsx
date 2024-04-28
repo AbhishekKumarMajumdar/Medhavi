@@ -8,8 +8,8 @@ import { RiMenu2Fill } from "react-icons/ri";
 import Logo from "@/Images/Logo/Logo.png"
 import Image from 'next/image';
 import Link from 'next/link';
-import Banner from "@/Images/Products/Banner.jpg"
-import Nse from "@/Images/Products/Banner2.jpg"
+import Banner from "@/Images/Banner/1.jpg"
+import Nse from "@/Images/Banner/2.jpg"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';

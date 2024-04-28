@@ -65,7 +65,7 @@ const Application = () => {
     ]
     return (
         <>
-            <h1 className="lg:mx-20 mx-6 font-bold sm:text-2xl text-xl md:text-3xl mt-2"> NEET Sarthi Mobile App
+            <h1 className="lg:mx-20 mx-6 font-bold sm:text-2xl text-xl md:text-3xl mt-2"> Medhavi Mobile App
             </h1>
             <section className="w-full px-6 py-10 md:px-10 lg:px-20  flex flex-col-reverse md:flex-row">
                 <div className="p-2 w-[100%]  flex flex-col gap-4">
@@ -80,7 +80,6 @@ const Application = () => {
                                     <ul>
                                         {item?.list.map((e) => (
                                             <li key={e}>{e}</li>
-
                                         ))}
                                     </ul>
 

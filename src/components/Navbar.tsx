@@ -95,10 +95,13 @@ const Navbar = () => {
                                 >Courses</div>
                                 <div onMouseLeave={() => setOpenSubMenu(false)}
                                     className={` top-full -left-[50%] mt-2 bg-[#e8e3f8] shadow-lg rounded-md py-2 w-48 z-10 ${opneSubMenu ? "absolute" : "hidden"}`}>
-                                    <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Popular Courses</Link>
-                                    <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Samagra Neet Jee-2024</Link>
-                                    <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
-                                    <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
+                                    <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Populer Course</Link>
+                                    <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class VI to  X</Link>
+                                    <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">UPSC / JPSC / BPSC</Link>
+                                    <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">SSC / Railway / Banking</Link>
+                                    <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class XI and  XII</Link>
+                                    <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">CAT / XAT / MAT</Link>
+
                                 </div>
                             </li>
                             <li className="text-lg font-bold "><Link href="/About" className="transition duration-300 focus:outline-none focus:underline hover:underline">About us</Link></li>
@@ -114,7 +117,7 @@ const Navbar = () => {
                                 </div>
                             </li>
                             <li className="text-lg font-bold "><Link href="/Careers" className="transition duration-300 focus:outline-none focus:underline hover:underline">Test Series</Link></li>
-                            <li className="text-lg font-bold "><Link href="/" className="transition duration-300 focus:outline-none focus:underline hover:underline">More</Link></li>
+                            <li className="text-lg font-bold "><Link href="/More" className="transition duration-300 focus:outline-none focus:underline hover:underline">More</Link></li>
                         </ul>
                     </div>
 
@@ -134,11 +137,12 @@ const Navbar = () => {
                             >Courses</div>
                             <div
                                 className={` top-full  -left-[50%] mt-2 bg-[#e8e3f8] shadow-lg rounded-md py-2 w-52 md:w-48 z-10 ${opneSubMenu ? "absolute" : "hidden"}`}>
-                                <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Popular Courses</Link>
-                                <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Samagra Neet Jee-2024</Link>
-
-                                <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
-                                <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
+                                <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Populer Course</Link>
+                                <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class VI to  X</Link>
+                                <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">UPSC / JPSC / BPSC</Link>
+                                <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">SSC / Railway / Banking</Link>
+                                <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class XI and  XII</Link>
+                                <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">CAT / XAT / MAT</Link>
                                 {/* Add more submenu items as needed */}
                             </div>
                         </div>
@@ -148,7 +152,7 @@ const Navbar = () => {
                         <Link href="/Study_Material" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">Study Material</Link>
                         <Link href="/Careers" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">Test Series</Link>
                         {/* <Link href="/Careers" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">Careers</Link> */}
-                        <Link href="/" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">More</Link>
+                        <Link href="/More" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">More</Link>
                     </div>
                 </div>
             </nav>
