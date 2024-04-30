@@ -3,7 +3,7 @@ import React from 'react'
 
 import Ten from "@/Images/Banner/10.png"
 
-import Samagra from "@/Images/Banner/Samagra.png"
+import Samagra from "@/Images/Banner/2025.png"
 
 import DAKSH from "@/Images/Banner/1.jpg"
 
@@ -33,7 +33,7 @@ const page = () => {
             list: [
                 "This subscription will be valid till 31 march 2025.",
                 "Recorded Lectures of class XI syllabus",
-                "10000+ quality questions prepared by20+ Top Kota faculties ",
+                "10000+ quality questions prepared by20+ Top Ranchi faculties ",
                 "DPP, Chapter-wise practice test with solutions and PYQ's",
                 "Performance Analysis report to identify weak areas",
                 "You can access all the above contents/tests on Mobile App and Website as well ",
@@ -66,7 +66,7 @@ const page = () => {
             list: [
                 "This subscription will be valid till 31 march 2025.",
                 "Recorded Lectures of class XI syllabus",
-                "10000+ quality questions prepared by20+ Top Kota faculties ",
+                "10000+ quality questions prepared by20+ Top Ranchi faculties ",
                 "DPP, Chapter-wise practice test with solutions and PYQ's",
                 "Performance Analysis report to identify weak areas",
                 "You can access all the above contents/tests on Mobile App and Website as well ",
