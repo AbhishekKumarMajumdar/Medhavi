@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import React from 'react'
 import Image from 'next/image'
 
-import Nse from "@/Images/Banner/Pre_Nurture_Course.png"
+import Nse from "@/Images/Banner/Frame 3375.png"
 const page = () => {
 
     return (
@@ -17,14 +17,14 @@ const page = () => {
 
             </section>
             <section className="w-full  py-4 lg:py-12 flex flex-col justify-center items-center px-6  md:px-10 lg:px-20 bg-[#fff]">
-                <div className="lg:w-[80%] w-full h-auto lg:h-[75vh] py-4 flex flex-col justify-center items-center rounded-xl bg-[#FF9352]">
+                <div className="lg:w-[80%] w-full h-auto lg:h-[85vh] py-4 flex flex-col justify-center items-center rounded-xl bg-[#FF9352]">
                     <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl w-full py-6 text-[#fff] leading-[40px] md:leading-[65px]">
                         How can you buy it?
                     </h1>
                     <p className='px-12 pb-10 text-center text-white'>
-                        You can but it from NEET SARTHI website or NEET SARTHI APP or by <br /> directly paying in Company Account.<br />
+                        You can but it from Medhavi website or Medhavi APP or by <br /> directly paying in Company Account.<br />
                         Company Account Details:-<br /><br />
-                        Send following details on Neet Sarthi student care No. +91-8090908042  <br /><br />
+                        Send following details on Medhavi student care No. +91-8090908042  <br /><br />
                         Your Name & Father Name<br />
                         Residential address with PIN Code<br />
                         Contact persons number<br />
