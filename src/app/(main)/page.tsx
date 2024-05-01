@@ -12,7 +12,8 @@ import CourseSection from "@/components/CourseSection";
 import Teacher from "@/components/Teacher";
 import Ten from "@/Images/Banner/10.png"
 import Samagra from "@/Images/Banner/2025.png"
-import DAKSH from "@/Images/Banner/Frame 3.png"
+import DAKSH from "@/Images/Banner/1.jpg"
+import xi from "@/Images/Banner/Frame 3.png"
 import Contect from "@/components/Contect";
 import Application from "@/components/Application";
 import Cat from "@/Images/Banner/2.jpg"
@@ -65,7 +66,7 @@ export default function Home() {
       ],
       buyLink: "/",
       DemoLink: "/",
-      img: DAKSH,
+      img: xi,
       direction: true,
     },
     {
