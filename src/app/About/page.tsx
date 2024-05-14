@@ -35,7 +35,7 @@ We create top-quality original content for many of India's leading coachings and
 <br /><br />
 Location:
 
-Medhavi Ranchi is conveniently located in Hariom Tower, Ranchi, Jharkhand, making it easily accessible for students across the region.<br /><br />
+Medhavi Ranchi is a conveniently located in Hariom Tower, Ranchi, Jharkhand, making it easily accessible for students across the region.<br /><br />
                     </p>
                 </div>
 
