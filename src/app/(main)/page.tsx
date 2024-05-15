@@ -11,8 +11,9 @@ import CardSection from "@/components/CardSection";
 import CourseSection from "@/components/CourseSection";
 import Teacher from "@/components/Teacher";
 import Ten from "@/Images/Banner/10.png"
-import Samagra from "@/Images/Banner/Samagra.png"
+import Samagra from "@/Images/Banner/2025.png"
 import DAKSH from "@/Images/Banner/1.jpg"
+import xi from "@/Images/Banner/Frame 3.png"
 import Contect from "@/components/Contect";
 import Application from "@/components/Application";
 import Cat from "@/Images/Banner/2.jpg"
@@ -41,7 +42,7 @@ export default function Home() {
       list: [
         "This subscription will be valid till 31 march 2025.",
         "Recorded Lectures of class XI syllabus",
-        "10000+ quality questions prepared by20+ Top Kota faculties ",
+        "10000+ quality questions prepared by20+ Top Ranchi faculties ",
         "DPP, Chapter-wise practice test with solutions and PYQ's",
         "Performance Analysis report to identify weak areas",
         "You can access all the above contents/tests on Mobile App and Website as well ",
@@ -65,7 +66,7 @@ export default function Home() {
       ],
       buyLink: "/",
       DemoLink: "/",
-      img: DAKSH,
+      img: xi,
       direction: true,
     },
     {
@@ -74,7 +75,7 @@ export default function Home() {
       list: [
         "This subscription will be valid till 31 march 2025.",
         "Recorded Lectures of class XI syllabus",
-        "10000+ quality questions prepared by20+ Top Kota faculties ",
+        "10000+ quality questions prepared by20+ Top Ranchi faculties ",
         "DPP, Chapter-wise practice test with solutions and PYQ's",
         "Performance Analysis report to identify weak areas",
         "You can access all the above contents/tests on Mobile App and Website as well ",

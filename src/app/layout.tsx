@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Medhavi",
-  description: "NEET Online Test Series 2022, Best NEET Coaching in KOTA. NEET Sarthi is your sarthi(Charioteer) for NEET preparation",
+  description: "NEET Online Test Series 2022, Best NEET Coaching in Ranchi. Medhavi is your sarthi(Charioteer) for NEET preparation",
 };
 
 export default function RootLayout({
