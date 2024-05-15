@@ -122,7 +122,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex md:gap-4">
-                        <button className="rounded-lg px-4 py-2 bg-[#FF660B] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">+918090908042</button>
+                        <button className="rounded-lg px-4 py-2 bg-[#FF660B] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">+916206783411</button>
                         <button className="rounded-lg px-4 py-2 bg-[#FF660B] text-bold text-white hover:bg-blue-600 hover:text-blue-100 duration-300">Join Us</button>
                     </div>
                 </div>
