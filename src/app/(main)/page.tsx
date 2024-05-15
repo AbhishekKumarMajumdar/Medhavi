@@ -108,7 +108,6 @@ export default function Home() {
       <CardSection />
       {data.map((e) => (
         <CourseSection key={e.title} data={e} />
-
       ))}
       <Teacher />
       <Application />
