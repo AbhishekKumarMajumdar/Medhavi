@@ -1,5 +1,3 @@
-import React from 'react'
-
 const page = () => {
 
     return (
@@ -31,7 +29,7 @@ Recorded Lectures: Access recorded lectures for convenient learning anytime, any
 Offline School Integrated Program (SIP): Empower schools to create a competitive environment on their campus through our school integrated program.
 NEETSarthi App: Access lots of free content through our NEETSarthi App.
 <br /><br />
-We create top-quality original content for many of India's leading coachings and school chains. All content is created by our Gurus who have guided thousands of students over the last 20 years, including many top 10 rankers. We provide online support for both teachers and students via multiple mediums such as Web, Mobile App, WhatsApp, Facebook, Instagram, Telegram, and YouTube. At Medhavi Ranchi, we always put students first and strive hard to help them fulfill their dreams and crack the Exam.
+We create top-quality original content for many of Indias leading coachings and school chains. All content is created by our Gurus who have guided thousands of students over the last 20 years, including many top 10 rankers. We provide online support for both teachers and students via multiple mediums such as Web, Mobile App, WhatsApp, Facebook, Instagram, Telegram, and YouTube. At Medhavi Ranchi, we always put students first and strive hard to help them fulfill their dreams and crack the Exam.
 <br /><br />
 Location:
 
