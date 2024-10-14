@@ -9,7 +9,7 @@ const page = () => {
                 <div className="md:w-[70%] w-[90%] h-auto md:h-max-[71vh] lg:h-auto bg-white">
                     <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl w-full py-6 text-[#151f63] leading-[40px] md:leading-[65px]">
                         About Medhavi Ranchi
-@@ -15,37 +15,29 @@ const page = () => {
+                        const page = () => {
                         Medhavi Ranchi, a brand of Sarthi NEET GURU ACADEMY, is an esteemed initiative by highly renowned faculties from Ranchi, the coaching capital of India, and a tech team from Bangalore, the silicon valley of India. We specialize in catering to Foundation/NEET/JEE/CUET Competitive Exams from class 6th to 12th. Our mission is to provide extensive and top-quality academic content to Institutes/Schools as well as Students at an affordable cost.
                         <br /><br />
                         Our Offerings:
