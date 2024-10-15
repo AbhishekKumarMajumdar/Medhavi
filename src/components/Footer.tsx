@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Logo from "@/Images/Logo/Medhavi.png"
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="bg-gray-900">
@@ -13,6 +15,8 @@ const Footer = () => {
                             height={224}
                             width={156}
                         />
+                        <p className='text-sm pl-6 font-medium text-white'>305, 3rd Floor Hari Om Tower , Ranchi - 834001 </p>
+
                     </div>
 
                     <div
@@ -64,6 +68,28 @@ const Footer = () => {
                                     <li>
                                         <a className="text-white transition hover:text-white/75" href="/">
                                             Terms
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                        <div className="text-center sm:text-left">
+                            <p className="text-lg font-medium text-white">Social Media</p>
+
+                            <nav className="mt-8">
+                                <ul className="space-y-4 text-sm">
+                                    <li>
+                                        <a className="text-white transition hover:text-white/75" href="https://www.facebook.com/profile.php?id=61558591095562&mibextid=rS40aB7S9Ucbxw6v">
+                                            <FaFacebook size={22} />
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a className="text-white transition hover:text-white/75" href="https://www.instagram.com/_classesmedhavi?igsh=Ymhlc3M4bnRxYWRl">
+                                            <FaInstagram size={22} />
                                         </a>
                                     </li>
 
