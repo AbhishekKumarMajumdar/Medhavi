@@ -21,18 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex h-full flex-col">
         <div className="flex min-h-full flex-col">{children}</div>
-        <div
-      id="chat-widget"
-      data-domain="EduCompass"
-      data-ref="medhaviclass"
-      data-assistants="Teacher,Student"
-      data-subject="UPSC, JPSC, BPSC, General Studies, Optional Subjects, Essay Writing, CSAT, CAT, XAT, MAT, Quantitative Aptitude, Logical Reasoning, Data Interpretation, Verbal Ability, Reading Comprehension, Decision Making, NEET, IIT, Physics, Chemistry, Biology, Mathematics, Class 6-12, Social Studies, History, Civics, Geography, Economics, English, Hindi">
-      
-      </div>
-    
-
-      <link href="https://scintillating-starship-0e06e5.netlify.app/main.css" rel="stylesheet"/>
-      <Script src= "https://scintillating-starship-0e06e5.netlify.app/main.js" ></Script>
+        
+      <div id="chat-widget" data-key="6717f7b4d63f600148209adf"></div>
+      <Script src="https://cdn.jsdelivr.net/gh/helio-ai/widget@latest/main.js"></Script>
       </body>
     </html>
   );
