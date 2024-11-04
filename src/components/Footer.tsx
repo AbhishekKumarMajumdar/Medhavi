@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Logo from "@/Images/Logo/Medhavi.png"
+import Privacy from './Privacy'
 const Footer = () => {
     return (
         <footer className="bg-gray-900">
@@ -56,7 +58,7 @@ const Footer = () => {
                             <nav className="mt-8">
                                 <ul className="space-y-4 text-sm">
                                     <li>
-                                        <a className="text-white transition hover:text-white/75" href="/">
+                                        <a className="text-white transition hover:text-white/75" href="/Privacy">
                                             Privacy
                                         </a>
                                     </li>
